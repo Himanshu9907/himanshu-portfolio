@@ -72,30 +72,125 @@ const geistMono = Geist_Mono({
    SEO METADATA
 ========================================================= */
 
+// export const metadata = {
+//   metadataBase: new URL(
+//   "https://himanshu-portfolio-tawny.vercel.app"
+// ),
+
+//   title: {
+//     default: "Himanshu Prajapati | Full Stack & Next.js Developer",
+//     template: "%s | Himanshu Prajapati",
+//   },
+
+//   description:
+//     "Himanshu Prajapati is a Full Stack and Next.js Developer building modern, fast and responsive web experiences with React, Next.js, JavaScript and Tailwind CSS.",
+
+//   keywords: [
+//     "Himanshu Prajapati",
+//     "Full Stack Developer",
+//     "Next.js Developer",
+//     "React Developer",
+//     "JavaScript Developer",
+//     "Frontend Developer",
+//     "Web Developer",
+//     "Freelance Developer",
+//     "Next.js Portfolio",
+//     "React Portfolio",
+//   ],
+
+//   authors: [
+//     {
+//       name: "Himanshu Prajapati",
+//     },
+//   ],
+
+//   creator: "Himanshu Prajapati",
+
+//   applicationName: "Himanshu Prajapati Portfolio",
+
+//   category: "technology",
+
+//   alternates: {
+//     canonical: "/",
+//   },
+
+//   openGraph: {
+//     title: "Himanshu Prajapati | Full Stack & Next.js Developer",
+
+//     description:
+//       "Portfolio of Himanshu Prajapati — Full Stack / Next.js Developer building modern and high-performance web experiences.",
+
+//     url: "/",
+
+//     siteName: "Himanshu Prajapati",
+
+//     locale: "en_US",
+
+//     type: "website",
+
+//     images: [
+//       {
+//         url: "/og-image.png",
+//         width: 1200,
+//         height: 630,
+//         alt: "Himanshu Prajapati — Full Stack & Next.js Developer",
+//       },
+//     ],
+//   },
+
+//   twitter: {
+//     card: "summary_large_image",
+
+//     title: "Himanshu Prajapati | Full Stack & Next.js Developer",
+
+//     description:
+//       "Full Stack / Next.js Developer building modern, fast and responsive web experiences.",
+
+//     images: ["/og-image.png"],
+//   },
+
+//   robots: {
+//     index: true,
+//     follow: true,
+
+//     googleBot: {
+//       index: true,
+//       follow: true,
+
+//       "max-image-preview": "large",
+//       "max-snippet": -1,
+//       "max-video-preview": -1,
+//     },
+//   },
+
+//   icons: {
+//     icon: "/favicon.ico",
+//     shortcut: "/favicon.ico",
+//     apple: "/apple-touch-icon.png",
+//   },
+// };
+
+
 export const metadata = {
   metadataBase: new URL(
-  "https://himanshu-portfolio-tawny.vercel.app"
-),
+    "https://himanshu-portfolio-tawny.vercel.app"
+  ),
 
   title: {
-    default: "Himanshu Prajapati | Full Stack & Next.js Developer",
+    default: "Himanshu Prajapati | Full Stack Developer",
     template: "%s | Himanshu Prajapati",
   },
 
   description:
-    "Himanshu Prajapati is a Full Stack and Next.js Developer building modern, fast and responsive web experiences with React, Next.js, JavaScript and Tailwind CSS.",
+    "Full Stack Developer specializing in Next.js, React, modern web applications, AI-powered tools and high-performance digital experiences.",
 
   keywords: [
     "Himanshu Prajapati",
     "Full Stack Developer",
     "Next.js Developer",
     "React Developer",
-    "JavaScript Developer",
-    "Frontend Developer",
     "Web Developer",
     "Freelance Developer",
-    "Next.js Portfolio",
-    "React Portfolio",
   ],
 
   authors: [
@@ -104,63 +199,29 @@ export const metadata = {
     },
   ],
 
-  creator: "Himanshu Prajapati",
-
-  applicationName: "Himanshu Prajapati Portfolio",
-
-  category: "technology",
-
-  alternates: {
-    canonical: "/",
-  },
-
   openGraph: {
-    title: "Himanshu Prajapati | Full Stack & Next.js Developer",
-
+    title: "Himanshu Prajapati | Full Stack Developer",
     description:
-      "Portfolio of Himanshu Prajapati — Full Stack / Next.js Developer building modern and high-performance web experiences.",
-
-    url: "/",
-
+      "I build modern, fast and scalable web experiences with Next.js, React and modern technologies.",
+    url: "https://himanshu-portfolio-tawny.vercel.app",
     siteName: "Himanshu Prajapati",
-
-    locale: "en_US",
-
     type: "website",
-
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Himanshu Prajapati — Full Stack & Next.js Developer",
+        alt: "Himanshu Prajapati — Full Stack Developer",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-
-    title: "Himanshu Prajapati | Full Stack & Next.js Developer",
-
+    title: "Himanshu Prajapati | Full Stack Developer",
     description:
-      "Full Stack / Next.js Developer building modern, fast and responsive web experiences.",
-
+      "Full Stack Developer building modern web experiences.",
     images: ["/og-image.png"],
-  },
-
-  robots: {
-    index: true,
-    follow: true,
-
-    googleBot: {
-      index: true,
-      follow: true,
-
-      "max-image-preview": "large",
-      "max-snippet": -1,
-      "max-video-preview": -1,
-    },
   },
 
   icons: {
