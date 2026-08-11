@@ -73,7 +73,9 @@ const geistMono = Geist_Mono({
 ========================================================= */
 
 export const metadata = {
-  metadataBase: new URL("https://your-portfolio.vercel.app"),
+  metadataBase: new URL(
+  "https://himanshu-portfolio-tawny.vercel.app"
+),
 
   title: {
     default: "Himanshu Prajapati | Full Stack & Next.js Developer",
