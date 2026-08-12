@@ -51,22 +51,22 @@
 //   );
 // }
 
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+// import { Geist, Geist_Mono } from "next/font/google";
+// import "./globals.css";
 
-import CustomCursor from "@/components/ui/CustomCursor";
-import Footer from "@/components/layout/Footer";
-import Navbar from "@/components/layout/Navbar";
+// import CustomCursor from "@/components/ui/CustomCursor";
+// import Footer from "@/components/layout/Footer";
+// import Navbar from "@/components/layout/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 /* =========================================================
    SEO METADATA
@@ -171,6 +171,120 @@ const geistMono = Geist_Mono({
 // };
 
 
+// export const metadata = {
+//   metadataBase: new URL(
+//     "https://himanshu-portfolio-tawny.vercel.app"
+//   ),
+
+//   title: {
+//     default: "Himanshu Prajapati | Full Stack Developer",
+//     template: "%s | Himanshu Prajapati",
+//   },
+
+//   description:
+//     "Full Stack Developer specializing in Next.js, React, modern web applications, AI-powered tools and high-performance digital experiences.",
+
+//   keywords: [
+//     "Himanshu Prajapati",
+//     "Full Stack Developer",
+//     "Next.js Developer",
+//     "React Developer",
+//     "Web Developer",
+//     "Freelance Developer",
+//   ],
+
+//   authors: [
+//     {
+//       name: "Himanshu Prajapati",
+//     },
+//   ],
+
+//   openGraph: {
+//     title: "Himanshu Prajapati | Full Stack Developer",
+//     description:
+//       "I build modern, fast and scalable web experiences with Next.js, React and modern technologies.",
+//     url: "https://himanshu-portfolio-tawny.vercel.app",
+//     siteName: "Himanshu Prajapati",
+//     type: "website",
+//     images: [
+//       {
+//         url: "/og-image.png",
+//         width: 1200,
+//         height: 630,
+//         alt: "Himanshu Prajapati — Full Stack Developer",
+//       },
+//     ],
+//   },
+
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Himanshu Prajapati | Full Stack Developer",
+//     description:
+//       "Full Stack Developer building modern web experiences.",
+//     images: ["/og-image.png"],
+//   },
+
+//   icons: {
+//     icon: "/favicon.ico",
+//     shortcut: "/favicon.ico",
+//     apple: "/apple-touch-icon.png",
+//   },
+// };
+
+// /* =========================================================
+//    ROOT LAYOUT
+// ========================================================= */
+
+// export default function RootLayout({ children }) {
+//   return (
+//     <html
+//       lang="en"
+//       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+//     >
+//       <body className="min-h-full bg-slate-950 text-white">
+//         {/* Custom cursor */}
+//         <CustomCursor />
+
+//         {/* Ambient background */}
+//         <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+//           <div className="absolute left-[10%] top-[15%] h-72 w-72 rounded-full bg-indigo-600/[0.06] blur-[120px]" />
+
+//           <div className="absolute right-[5%] top-[45%] h-80 w-80 rounded-full bg-purple-600/[0.05] blur-[130px]" />
+
+//           <div className="absolute bottom-[5%] left-[35%] h-72 w-72 rounded-full bg-blue-600/[0.04] blur-[120px]" />
+//         </div>
+
+//         {/* Navbar */}
+//         <Navbar />
+
+//         {/* Page content */}
+//         <main>{children}</main>
+
+//         {/* Footer */}
+//         <Footer />
+//       </body>
+//     </html>
+//   );
+// }
+
+
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+
+import CustomCursor from "@/components/ui/CustomCursor";
+import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
 export const metadata = {
   metadataBase: new URL(
     "https://himanshu-portfolio-tawny.vercel.app"
@@ -184,25 +298,15 @@ export const metadata = {
   description:
     "Full Stack Developer specializing in Next.js, React, modern web applications, AI-powered tools and high-performance digital experiences.",
 
-  keywords: [
-    "Himanshu Prajapati",
-    "Full Stack Developer",
-    "Next.js Developer",
-    "React Developer",
-    "Web Developer",
-    "Freelance Developer",
-  ],
-
-  authors: [
-    {
-      name: "Himanshu Prajapati",
-    },
-  ],
+  verification: {
+    google:
+      "7dk-k9ZD_rYIwP28zDXcvjbQFp5OpQWP_tK-8iQVPak",
+  },
 
   openGraph: {
     title: "Himanshu Prajapati | Full Stack Developer",
     description:
-      "I build modern, fast and scalable web experiences with Next.js, React and modern technologies.",
+      "Full Stack Developer building modern web experiences with Next.js, React and modern technologies.",
     url: "https://himanshu-portfolio-tawny.vercel.app",
     siteName: "Himanshu Prajapati",
     type: "website",
@@ -226,14 +330,8 @@ export const metadata = {
 
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
   },
 };
-
-/* =========================================================
-   ROOT LAYOUT
-========================================================= */
 
 export default function RootLayout({ children }) {
   return (
@@ -241,11 +339,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-slate-950 text-white">
-        {/* Custom cursor */}
+      <body>
         <CustomCursor />
 
-        {/* Ambient background */}
+        {/* Background glow */}
         <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
           <div className="absolute left-[10%] top-[15%] h-72 w-72 rounded-full bg-indigo-600/[0.06] blur-[120px]" />
 
@@ -254,13 +351,10 @@ export default function RootLayout({ children }) {
           <div className="absolute bottom-[5%] left-[35%] h-72 w-72 rounded-full bg-blue-600/[0.04] blur-[120px]" />
         </div>
 
-        {/* Navbar */}
         <Navbar />
 
-        {/* Page content */}
-        <main>{children}</main>
+        {children}
 
-        {/* Footer */}
         <Footer />
       </body>
     </html>
